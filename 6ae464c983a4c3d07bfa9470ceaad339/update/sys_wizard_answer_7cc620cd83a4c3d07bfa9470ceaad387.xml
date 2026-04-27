@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">747fc2bc9d12321055903da570aff023</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 15:06:58</sys_created_on>
+        <sys_id>7cc620cd83a4c3d07bfa9470ceaad387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>sys_wizard_answer_7cc620cd83a4c3d07bfa9470ceaad387</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 15:06:58</sys_updated_on>
+        <table/>
+        <target_url>x_1960572_now_rfd_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

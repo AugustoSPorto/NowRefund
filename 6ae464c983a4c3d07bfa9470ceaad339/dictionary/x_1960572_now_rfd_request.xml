@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fcc620cd83a4c3d07bfa9470ceaad33f" extends="task" label="Refund Request" max_length="40" name="x_1960572_now_rfd_request" type="collection">
+        <element label="Reproal Reason" max_length="4000" name="reproal_reason" type="string"/>
+        <element label="Integration State" max_length="45" name="integration_state" type="string"/>
+        <element default="0.00" label="Amount BRL" max_length="255" name="amount_brl" type="float"/>
+        <element label="Receipt" max_length="40" name="receipt" type="user_image"/>
+        <element default="0.00" label="Amount USD" max_length="255" name="amount_usd" type="float"/>
+        <element label="Category" max_length="32" name="category" reference="x_1960572_now_rfd_category" type="reference"/>
+        <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
+        <element label="Purchase Date" max_length="255" name="purchase_date" type="glide_date"/>
+    </element>
+</database>

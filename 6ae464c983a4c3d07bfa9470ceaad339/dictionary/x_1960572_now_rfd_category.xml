@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="da1ae84583e4c3d07bfa9470ceaad3a2" label="Refund Category" max_length="40" name="x_1960572_now_rfd_category" type="collection">
+        <element label="Resolver Group" max_length="32" name="resolver_group" reference="sys_user_group" type="reference"/>
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
+        <index name="index">
+            <element name="resolver_group"/>
+        </index>
+    </element>
+</database>

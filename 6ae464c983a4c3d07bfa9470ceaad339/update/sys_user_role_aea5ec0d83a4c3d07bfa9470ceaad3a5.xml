@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Refund HR Manager</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>2UM5dOfcHBlvKSUh5dvLlcDlUlxSf3qBoeQ43meVYaE=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1960572_now_rfd.hr_manager</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>hr_manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-27 15:02:11</sys_created_on>
+        <sys_id>aea5ec0d83a4c3d07bfa9470ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1960572_now_rfd.hr_manager</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>sys_user_role_aea5ec0d83a4c3d07bfa9470ceaad3a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-27 15:02:11</sys_updated_on>
+    </sys_user_role>
+</record_update>
