@@ -4,11 +4,11 @@
         <advanced>false</advanced>
         <company/>
         <department/>
-        <group name="NowRefund Requesters">c4142d8583acc3d07bfa9470ceaad3d2</group>
+        <group name="NowRefund HR Managers">a1572d0d83acc3d07bfa9470ceaad371</group>
         <location/>
         <match_all>false</match_all>
-        <name>NowRefund Requesters</name>
-        <role name="x_1960572_now_rfd.requester">3b65280d83a4c3d07bfa9470ceaad33d</role>
+        <name>NowRefund HR Managers</name>
+        <role/>
         <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
 * Populate `answer` with true/false or evaluate to true/false
 * The script is evaluated in the scope the user criteria is defined
@@ -16,22 +16,22 @@
 * Don't use `gs.getUser()` or  `gs.getUserID()`, 
 * instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
 */]]></script>
-        <short_description>NowRefund Requesters Access.</short_description>
+        <short_description>NowRefund HR Managers Access.</short_description>
         <sys_class_name>user_criteria</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-28 00:51:33</sys_created_on>
+        <sys_created_on>2026-04-28 15:05:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>894caa0583e407d07bfa9470ceaad373</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>NowRefund Requesters</sys_name>
+        <sys_id>f4afe55583ac47d07bfa9470ceaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowRefund HR Managers</sys_name>
         <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
-        <sys_update_name>user_criteria_894caa0583e407d07bfa9470ceaad373</sys_update_name>
+        <sys_update_name>user_criteria_f4afe55583ac47d07bfa9470ceaad3e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-29 03:54:39</sys_updated_on>
+        <sys_updated_on>2026-04-28 15:05:29</sys_updated_on>
         <user/>
     </user_criteria>
-    <sys_translated_text action="delete_multiple" query="documentkey=894caa0583e407d07bfa9470ceaad373"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4afe55583ac47d07bfa9470ceaad3e0"/>
 </record_update>

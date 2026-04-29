@@ -8,50 +8,56 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Request Refund">6f44d681832407d07bfa9470ceaad3b9</cat_item>
-        <cat_variable>IO:5a461289832407d07bfa9470ceaad3e9</cat_variable>
+        <cat_variable>IO:61562ac583a407d07bfa9470ceaad3f0</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validate Amount Field</name>
+        <name>Validate Date</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
+    if (isLoading || newValue === '') {
         return;
     }
 
-	// Format 0,00 or 0.00
-    var regex = /^\d+([.,]\d{1,2})?$/;
+    // Get the date entered by the user
+    var purchaseDate = new Date(newValue);
 
-    if (!regex.test(newValue)) {
-        // Shows error message
-        g_form.addErrorMessage('Invalid Format. Insert a real price! (150 or 150.50 or 150,50)');
-        // Clears the field
-        g_form.setValue('amount_brl','');
+    // Get today's date and reset time to midnight for a fair comparison
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // Check if the purchase date is in the future
+    if (purchaseDate > today) {
+        // Display an error message directly on the field
+        g_form.addErrorMessage("The purchase date cannot be a future date. Please enter a valid date.");
+
+        // Clear the field value to force the user to correct it
+        g_form.setValue("purchase_date", "");
+
     } else {
-        // If correct, clears all previous error messages
+        // Valid date: clear any previous error message
 		g_form.clearMessages();
     }
-
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-28 01:21:52</sys_created_on>
+        <sys_created_on>2026-04-29 00:57:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d463b2c1832807d07bfa9470ceaad3f1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Validate Amount Field</sys_name>
+        <sys_id>f1b63b1583ec87d07bfa9470ceaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
         <sys_policy/>
         <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
-        <sys_update_name>catalog_script_client_d463b2c1832807d07bfa9470ceaad3f1</sys_update_name>
+        <sys_update_name>catalog_script_client_f1b63b1583ec87d07bfa9470ceaad334</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-29 01:05:03</sys_updated_on>
+        <sys_updated_on>2026-04-29 00:57:21</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Register Refund Category">438ca511836c47d07bfa9470ceaad3fe</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-28 15:05:48</sys_created_on>
+        <sys_id>ad1079d583ac47d07bfa9470ceaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register Refund Category.NowRefund HR Managers</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_ad1079d583ac47d07bfa9470ceaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-28 15:05:48</sys_updated_on>
+        <user_criteria display_value="NowRefund HR Managers">f4afe55583ac47d07bfa9470ceaad3e0</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

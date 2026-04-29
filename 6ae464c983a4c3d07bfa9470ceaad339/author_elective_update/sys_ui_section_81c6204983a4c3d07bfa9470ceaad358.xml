@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="81c6204983a4c3d07bfa9470ceaad358" sys_domain="global" table="x_1960572_now_rfd_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>1cb9a0a98364c7d07bfa9470ceaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>d0b9a0a98364c7d07bfa9470ceaad3bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>50b9a0a98364c7d07bfa9470ceaad3be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>dcb9a0a98364c7d07bfa9470ceaad3be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchase_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>5cb9a0a98364c7d07bfa9470ceaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_brl</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>d8b9a0a98364c7d07bfa9470ceaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_usd</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>58b9a0a98364c7d07bfa9470ceaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>d4b9a0a98364c7d07bfa9470ceaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>54b9a0a98364c7d07bfa9470ceaad3c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reproval_reason</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+            <sys_id>d0b9a0a98364c7d07bfa9470ceaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1960572_now_rfd_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-04-27 15:06:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81c6204983a4c3d07bfa9470ceaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1960572_now_rfd_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+            <sys_update_name>sys_ui_section_81c6204983a4c3d07bfa9470ceaad358</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-04-27 15:06:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sys_ui_section_81c6204983a4c3d07bfa9470ceaad358</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="81c6204983a4c3d07bfa9470ceaad358" sys_domain="global" table="x_1960572_now_rfd_request" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>1cb9a0a98364c7d07bfa9470ceaad3bb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>d0b9a0a98364c7d07bfa9470ceaad3bd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_by</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>50b9a0a98364c7d07bfa9470ceaad3be</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>dcb9a0a98364c7d07bfa9470ceaad3be</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>purchase_date</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>5cb9a0a98364c7d07bfa9470ceaad3bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>amount_brl</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>d8b9a0a98364c7d07bfa9470ceaad3c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>amount_usd</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>58b9a0a98364c7d07bfa9470ceaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>d4b9a0a98364c7d07bfa9470ceaad3c2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>54b9a0a98364c7d07bfa9470ceaad3c3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>reproval_reason</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:36:44</sys_created_on><sys_id>d0b9a0a98364c7d07bfa9470ceaad3c4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1960572_now_rfd_request" sys_domain="global" view="Default view">81c6204983a4c3d07bfa9470ceaad358</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:36:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1960572_now_rfd_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-27 15:06:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>81c6204983a4c3d07bfa9470ceaad358</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1960572_now_rfd_request</sys_name><sys_overrides/><sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package><sys_policy/><sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope><sys_update_name>sys_ui_section_81c6204983a4c3d07bfa9470ceaad358</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-27 15:06:59</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2051735607</payload_hash>
+        <record_name>Refund Request</record_name>
+        <reverted_from/>
+        <source>1f7ad9c1836cc3d07bfa9470ceaad3ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 04:36:44</sys_created_on>
+        <sys_id>14b9a0a98364c7d07bfa9470ceaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd7866db90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 04:36:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>94b9a0a9aa64c7d0e1769a653f932fc8</update_guid>
+        <update_guid_history>94b9a0a9aa64c7d0e1769a653f932fc8:-2051735607,e6acf089fd68c3d03b095d4bd075279b:-1702484067,700cbc090068c3d0200043807e48d84a:-2139854223,034bf4c56c68c3d06ed4adba887c6132:922451696,527a3c45e668c3d0f0f8e46aec0dc730:-1218922397,f1d974058368c3d0687be3f3b19b94b9:-669807570,0e5974c17568c3d084d44ab33eadddad:-920349571,4e5974c17568c3d029fcedaeb522dd93:1932547329</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 04:54:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3620fd064965487ea10a245acb1351e9</sys_id>
+        <sys_metadata>81c6204983a4c3d07bfa9470ceaad358</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1960572_now_rfd_request</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_parent display_value="Refund Request">fcc620cd83a4c3d07bfa9470ceaad33f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_scope_delete display_value="">5716563290394bf1b8b07fc9b904f3e9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_81c6204983a4c3d07bfa9470ceaad358</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_81c6204983a4c3d07bfa9470ceaad358">14b9a0a98364c7d07bfa9470ceaad3c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 04:54:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

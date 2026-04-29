@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NowRefund</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 14:33:04</sys_created_on>
+        <sys_id>ddb17e2d83640bd07bfa9470ceaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NowRefund</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>sys_properties_category_ddb17e2d83640bd07bfa9470ceaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 14:33:04</sys_updated_on>
+        <title><![CDATA[<p>NowRefund - Integration Settings</p>
+<p>Use this page to configure the FreeCurrencyAPI credentials and endpoints used for automatic BRL to USD refund conversions.</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=ddb17e2d83640bd07bfa9470ceaad38c"/>
+</record_update>
