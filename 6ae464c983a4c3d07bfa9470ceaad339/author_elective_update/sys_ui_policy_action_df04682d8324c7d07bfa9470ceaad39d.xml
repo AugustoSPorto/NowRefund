@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>description</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 04:12:06</sys_created_on>
+        <sys_id>df04682d8324c7d07bfa9470ceaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>sys_ui_policy_action_df04682d8324c7d07bfa9470ceaad39d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 04:12:06</sys_updated_on>
+        <table>x_1960572_now_rfd_request</table>
+        <ui_policy display_value="Fields are Read-Only when Refund Closed">9e73e8e98324c7d07bfa9470ceaad39b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=df04682d8324c7d07bfa9470ceaad39d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sys_ui_policy_action_df04682d8324c7d07bfa9470ceaad39d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>description</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-29 04:12:06</sys_created_on><sys_id>df04682d8324c7d07bfa9470ceaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>description</sys_name><sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package><sys_policy/><sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope><sys_update_name>sys_ui_policy_action_df04682d8324c7d07bfa9470ceaad39d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-29 04:12:06</sys_updated_on><table>x_1960572_now_rfd_request</table><ui_policy display_value="Fields are Read-Only when Refund Closed">9e73e8e98324c7d07bfa9470ceaad39b</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=df04682d8324c7d07bfa9470ceaad39d"/></record_update>]]></payload>
+        <payload_hash>-574644151</payload_hash>
+        <record_name>description</record_name>
+        <reverted_from/>
+        <source>1f7ad9c1836cc3d07bfa9470ceaad3ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 04:12:06</sys_created_on>
+        <sys_id>6b04646d8324c7d07bfa9470ceaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19dd76fde920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-29 04:12:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>6704646d1224c7d04ed5ec1954fbd640</update_guid>
+        <update_guid_history>6704646d1224c7d04ed5ec1954fbd640:-574644151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 18:42:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4e4982b82f2c43e0ba31f83d0b0b0900</sys_id>
+        <sys_metadata>df04682d8324c7d07bfa9470ceaad39d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_parent display_value="Fields are Read-Only when Refund Done.">9e73e8e98324c7d07bfa9470ceaad39b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_scope_delete display_value="">5716563290394bf1b8b07fc9b904f3e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_df04682d8324c7d07bfa9470ceaad39d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_df04682d8324c7d07bfa9470ceaad39d">6b04646d8324c7d07bfa9470ceaad341</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 18:42:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
