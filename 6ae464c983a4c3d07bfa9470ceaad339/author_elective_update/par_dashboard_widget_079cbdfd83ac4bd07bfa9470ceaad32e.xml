@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0b9cbdfd83ac4bd07bfa9470ceaad322</canvas>
+        <component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component>
+        <component_props>{"selectedElements":[],"showDataLabels":true,"dataLabelsType":"both","truncationType":"end","showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"filterConfigurations":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Refund Request","sourceType":"table","tableOrViewName":"x_1960572_now_rfd_request","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyMjIwMjA1Nw==","dataCategories":["trend","group","simple"]}],"componentId":"cadnx3pr","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"palette","palette":"ed1143a9d7100200b96d45a3ce6103e3"},"metrics":[{"dataSource":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyMjIwMjA1Nw==","id":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWDNKbVpGOXlaWEYxWlhOME1UYzNOelV5TWpJd01qQTFOdz09MTc3NzUyMjIwNjA0NA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyMjIwMjA1Nw==","groupByField":"category","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":20,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerTitle":"Refunds by Category"}</component_props>
+        <h>16</h>
+        <name>Refunds by Category</name>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 05:17:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>079cbdfd83ac4bd07bfa9470ceaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refunds by Category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>par_dashboard_widget_079cbdfd83ac4bd07bfa9470ceaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 05:17:30</sys_updated_on>
+        <visualization/>
+        <w>20</w>
+        <widget_props/>
+        <x>0</x>
+        <y>9</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>par_dashboard_widget_079cbdfd83ac4bd07bfa9470ceaad32e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0b9cbdfd83ac4bd07bfa9470ceaad322</canvas><component display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</component><component_props>{"selectedElements":[],"showDataLabels":true,"dataLabelsType":"both","truncationType":"end","showRegister":false,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"filterConfigurations":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Refund Request","sourceType":"table","tableOrViewName":"x_1960572_now_rfd_request","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyMjIwMjA1Nw==","dataCategories":["trend","group","simple"]}],"componentId":"cadnx3pr","filterPerMetric":[],"sortBy":"value","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"palette","palette":"ed1143a9d7100200b96d45a3ce6103e3"},"metrics":[{"dataSource":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyMjIwMjA1Nw==","id":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWDNKbVpGOXlaWEYxWlhOME1UYzNOelV5TWpJd01qQTFOdz09MTc3NzUyMjIwNjA0NA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyMjIwMjA1Nw==","groupByField":"category","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":20,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":false}],"headerTitle":"Refunds by Category"}</component_props><h>16</h><name>Refunds by Category</name><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-30 05:17:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>079cbdfd83ac4bd07bfa9470ceaad32e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Refunds by Category</sys_name><sys_overrides/><sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package><sys_policy/><sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope><sys_update_name>par_dashboard_widget_079cbdfd83ac4bd07bfa9470ceaad32e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-30 05:17:30</sys_updated_on><visualization/><w>20</w><widget_props/><x>0</x><y>9</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-850204243</payload_hash>
+        <record_name>Refunds by Category</record_name>
+        <reverted_from/>
+        <source>1f7ad9c1836cc3d07bfa9470ceaad3ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 05:17:30</sys_created_on>
+        <sys_id>c79cbdfd83ac4bd07bfa9470ceaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ddcd21a5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 05:17:30</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>c39cbdfd1bac4bd07481b121b855aa30</update_guid>
+        <update_guid_history>c39cbdfd1bac4bd07481b121b855aa30:-850204243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Refunds by Category">db9cbdfd83ac4bd07bfa9470ceaad3b6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 05:17:30</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>3f9191246f6c4a7cb211c64b173e98d1</sys_id>
+        <sys_metadata>079cbdfd83ac4bd07bfa9470ceaad32e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refunds by Category</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_scope_delete display_value="">5716563290394bf1b8b07fc9b904f3e9</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_079cbdfd83ac4bd07bfa9470ceaad32e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_079cbdfd83ac4bd07bfa9470ceaad32e">c79cbdfd83ac4bd07bfa9470ceaad331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 05:17:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

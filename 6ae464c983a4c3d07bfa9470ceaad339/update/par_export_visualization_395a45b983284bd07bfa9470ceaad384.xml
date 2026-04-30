@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_export_visualization">
+    <par_export_visualization action="INSERT_OR_UPDATE">
+        <file_type>pdf</file_type>
+        <omit_if_empty>false</omit_if_empty>
+        <orientation>portrait</orientation>
+        <page_size>letter</page_size>
+        <smart_size>false</smart_size>
+        <sys_class_name>par_export_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 01:37:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>395a45b983284bd07bfa9470ceaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>par_export_visualization_395a45b983284bd07bfa9470ceaad384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 01:37:51</sys_updated_on>
+        <visualizations>f408c5b583284bd07bfa9470ceaad3f1</visualizations>
+    </par_export_visualization>
+</record_update>

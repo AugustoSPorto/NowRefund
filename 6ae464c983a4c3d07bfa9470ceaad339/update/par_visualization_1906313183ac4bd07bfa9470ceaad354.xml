@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Area">aba8630dc2ccc9b3c1774af1b6820696</macroponent>
+        <name>Refund Requests Per Day</name>
+        <properties>{"showDataLabels":false,"disableTooltip":false,"showClosestSeriesOnHover":false,"showXGrid":false,"showDateRangeByDefault":false,"showYGrid":true,"hideYAxis0":false,"yAxis0Position":"left","hideYAxis1":false,"yAxis1Position":"right","hideYAxis2":false,"yAxis2Position":"right","hideYAxis3":false,"yAxis3Position":"right","hideYAxis4":false,"yAxis4Position":"right","showLegend":false,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"yAxisStyle":"default","lineStrokeWidth":"2","chartVariation":"stacked","extensionType":"spline","showContinuousLine":true,"showMarkers":false,"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":true,"dataPassthrough":null,"sortByOrder":"","showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":null,"showMetricLabel":null,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"useCurrentDateForEnd":false,"period":null,"useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"filterConfigurations":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Refund Request","sourceType":"table","tableOrViewName":"x_1960572_now_rfd_request","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyNDQzMjAzNA==","dataCategories":["trend","group","simple"]}],"componentId":"9l8sua7c","filterPerMetric":[],"sortBy":"","configVersion":"23.0.0-ci-SNAPSHOT","colorConfig":{"type":"palette","palette":"878183a9d7100200b96d45a3ce610348"},"metrics":[{"dataSource":"dGFibGV4XzE5NjA1NzJfbm93X3JmZF9yZXF1ZXN0MTc3NzUyNDQzMjAzNA==","id":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWDNKbVpGOXlaWEYxWlhOME1UYzNOelV5TkRRek1qQXpOQT09MTc3NzUyNDQzNTM5NA==","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"trendBy":{"trendByFrequency":"date","trendByMinuteInterval":null,"trendByFields":[{"field":"sys_created_on","metric":"ZEdGaWJHVjRYekU1TmpBMU56SmZibTkzWDNKbVpGOXlaWEYxWlhOME1UYzNOelV5TkRRek1qQXpOQT09MTc3NzUyNDQzNTM5NA=="}]},"headerTitle":"Refund Requests per Day"}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-30 04:48:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1906313183ac4bd07bfa9470ceaad354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Refund Requests Per Day</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>par_visualization_1906313183ac4bd07bfa9470ceaad354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-30 04:49:46</sys_updated_on>
+        <type>Area</type>
+    </par_visualization>
+</record_update>
