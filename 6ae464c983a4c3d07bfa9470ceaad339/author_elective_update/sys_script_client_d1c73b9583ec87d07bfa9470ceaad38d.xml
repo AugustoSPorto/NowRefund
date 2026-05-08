@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Client script that validates the purchase date field on refund requests, preventing future dates from being submitted.</description>
+        <field>purchase_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Get the date entered by the user
+    var purchaseDate = new Date(newValue);
+
+    // Get today's date and reset time to midnight for a fair comparison
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // Check if the purchase date is in the future
+    if (purchaseDate > today) {
+        // Display an error message directly on the field
+        g_form.addErrorMessage("The purchase date cannot be a future date. Please enter a valid date.");
+
+        // Clear the field value to force the user to correct it
+        g_form.setValue("purchase_date", "");
+
+    } else {
+        // Valid date: clear any previous error message
+		g_form.clearMessages();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-29 01:02:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1c73b9583ec87d07bfa9470ceaad38d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_update_name>sys_script_client_d1c73b9583ec87d07bfa9470ceaad38d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-08 20:24:57</sys_updated_on>
+        <table>x_1960572_now_rfd_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</application>
+        <file_path/>
+        <instance_id>ce0ab4e8eb0c9adccbdefceacad0cd47</instance_id>
+        <instance_name>dev287264</instance_name>
+        <name>sys_script_client_d1c73b9583ec87d07bfa9470ceaad38d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Client script that validates the purchase date field on refund requests, preventing future dates from being submitted.&lt;/description&gt;&lt;field&gt;purchase_date&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Get the date entered by the user
+    var purchaseDate = new Date(newValue);
+
+    // Get today's date and reset time to midnight for a fair comparison
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // Check if the purchase date is in the future
+    if (purchaseDate &gt; today) {
+        // Display an error message directly on the field
+        g_form.addErrorMessage("The purchase date cannot be a future date. Please enter a valid date.");
+
+        // Clear the field value to force the user to correct it
+        g_form.setValue("purchase_date", "");
+
+    } else {
+        // Valid date: clear any previous error message
+		g_form.clearMessages();
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-29 01:02:00&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d1c73b9583ec87d07bfa9470ceaad38d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NowRefund" source="x_1960572_now_rfd"&gt;6ae464c983a4c3d07bfa9470ceaad339&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NowRefund"&gt;6ae464c983a4c3d07bfa9470ceaad339&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d1c73b9583ec87d07bfa9470ceaad38d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-08 20:24:57&lt;/sys_updated_on&gt;&lt;table&gt;x_1960572_now_rfd_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-350917598</payload_hash>
+        <record_name>Validate Date</record_name>
+        <reverted_from/>
+        <source>1f7ad9c1836cc3d07bfa9470ceaad3ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-08 20:24:57</sys_created_on>
+        <sys_id>4a095eac833003107bfa9470ceaad390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e0943c7070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-08 20:24:57</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>4a095eac97300310bb12d413118f838f</update_guid>
+        <update_guid_history>4a095eac97300310bb12d413118f838f:-350917598,1f497759c5ec87d0d0e18879d9205365:1618443471,b688ff5552ec87d01ae085665dea1715:-1633218170</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-08 20:26:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>087b1bdcbf844ef986f3d3cba090d181</sys_id>
+        <sys_metadata>d1c73b9583ec87d07bfa9470ceaad38d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Date</sys_name>
+        <sys_package display_value="NowRefund" source="x_1960572_now_rfd">6ae464c983a4c3d07bfa9470ceaad339</sys_package>
+        <sys_parent display_value="Refund Request">fcc620cd83a4c3d07bfa9470ceaad33f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NowRefund">6ae464c983a4c3d07bfa9470ceaad339</sys_scope>
+        <sys_scope_delete display_value="">5716563290394bf1b8b07fc9b904f3e9</sys_scope_delete>
+        <sys_update_name>sys_script_client_d1c73b9583ec87d07bfa9470ceaad38d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d1c73b9583ec87d07bfa9470ceaad38d">4a095eac833003107bfa9470ceaad390</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-08 20:26:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
